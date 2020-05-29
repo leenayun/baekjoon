@@ -15,7 +15,6 @@ int fibonacci(int n,int *ptr0,int *ptr1) {
 }
 
 int main() {
-
 	int count;
 	int N;
 
