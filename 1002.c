@@ -11,8 +11,6 @@ int main() {
 
 	for (int i = 0;i < num;i++) {
 		scanf("%d %d %d %d %d %d", &x1, &y1, &r1, &x2, &y2, &r2);
-
-
 		if (x1 == x2 && y1 == y2) {
 			if (r2 == r1) {// 같은중심,같은거리 => 같은 원 (무한대)
 				printf("-1\n");
